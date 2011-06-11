@@ -1,10 +1,21 @@
-Here's the page of next generation 3D engine for haxe.
+h1. HIDE - Haxe Incubator 3D Engine (temporary codename).
+
 It is a very quick draft done in hurry and will change on need as discussed on the ML - feel free until a more structured organization is defined.
+
+h2. Goal of the Project.
 
 The goal of the project is to have a set of tools and libraries for creating some 3D GPU accelerated applications.
 Those applications can be released on all the devices mentionned below without porting any code, just rebuilding for the target (this does not exclude specific code for exclusive feature).
 If those application run towards a server application, then the server logic doesn't need to be aware of it.
 It is important that this is not kept as a programmer toolkit but includes artist/designers support.
+
+h2. Tools and Language.
+
+Haxe (http://haxe.org/) is the best fit for this job, as it has several (growing) available backends (JS, Flash, Neko, CPP, PHP and soon Java & C#).
+
+Away3D which provides already a fullfeatured engine atop Stage3D (Molehill) and will provide us all tools, formats and an already working flash environment.
+
+h2. Targets.
 
 Targets (exhaustive):
  * Flash via Molehill.
@@ -13,8 +24,10 @@ Targets (exhaustive):
  * C# via Unity / OpenGL
  * Java via OpenGL
 
-Targets (minimal 	to start with):
+Targets (minimal to start with):
  * Flash via Molehill.
  * JS via WebGL.
  * CPP via OpenGL (IPad, PC).
  * Neko via OpenGL (PC).
+
+
