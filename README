@@ -1,0 +1,20 @@
+Here's the page of next generation 3D engine for haxe.
+It is a very quick draft done in hurry and will change on need as discussed on the ML - feel free until a more structured organization is defined.
+
+The goal of the project is to have a set of tools and libraries for creating some 3D GPU accelerated applications.
+Those applications can be released on all the devices mentionned below without porting any code, just rebuilding for the target (this does not exclude specific code for exclusive feature).
+If those application run towards a server application, then the server logic doesn't need to be aware of it.
+It is important that this is not kept as a programmer toolkit but includes artist/designers support.
+
+Targets (exhaustive):
+ * Flash via Molehill.
+ * JS via WebGL - (Browser compat ?). Possible fallback to a scanline or Canvas renderer. Useful for iOS fallbacks.
+ * CPP(/Neko?) via OpenGL (IPhone, IPad, Android, PC, Mac ?).
+ * C# via Unity / OpenGL
+ * Java via OpenGL
+
+Targets (minimal 	to start with):
+ * Flash via Molehill.
+ * JS via WebGL.
+ * CPP via OpenGL (IPad, PC).
+ * Neko via OpenGL (PC).
