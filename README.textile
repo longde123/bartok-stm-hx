@@ -1,1 +1,5 @@
 https://github.com/longde123/bartok-stm-hx.git
+
+Microsoft Research License Agreement
+Non-Commercial Use Only
+A Verification-Oriented Model Implementation of an STM in C# 
